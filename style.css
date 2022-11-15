@@ -32,7 +32,6 @@
 .container {
     max-width: 550px;
     background-color: var(--Dark-Grayish-Blue);
-    /* height: 100%; */
     text-align: center;
     padding: 2rem;
     border-radius: 5px;

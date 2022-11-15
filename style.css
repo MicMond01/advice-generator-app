@@ -51,12 +51,9 @@
     font-weight: 800;
     font-size: 3vh;
     color: var(--Light-Cyan);
+    margin-bottom: 2rem;
 }
 
-.bottom {
-    position: relative;
-    margin-top: 16px;
-}
 
 .btn {
     width: 40px;
@@ -67,8 +64,9 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 45%;
-    top: 180%;
+    bottom: -45px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     cursor: pointer;
 }
 
@@ -121,4 +119,5 @@
     .pattern {
         width: 100%;
     }
+
 }
